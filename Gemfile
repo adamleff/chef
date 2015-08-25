@@ -1,4 +1,7 @@
 source "https://rubygems.org"
+
+gem 'ohai', github: 'mattray/ohai', branch: '8.5.1.cisco'
+
 gemspec :name => "chef"
 
 gem "activesupport", "< 4.0.0", :group => :compat_testing, :platform => "ruby"
