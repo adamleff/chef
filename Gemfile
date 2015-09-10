@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'ohai', github: 'mattray/ohai', branch: '8.5.1.cisco'
+gem 'ohai', github: 'adamleff/ohai', branch: 'ios_xr_mods'
 
 gemspec :name => "chef"
 
