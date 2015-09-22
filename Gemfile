@@ -5,7 +5,7 @@ gem "activesupport", "< 4.0.0", :group => :compat_testing, :platform => "ruby"
 
 gem 'chef-config', path: "chef-config"
 
-gem 'ohai', github: 'adamleff/ohai', branch: 'wrlinux7'
+gem 'ohai', github: 'adamleff/ohai', branch: '8.5.1.cisco.wrl7'
 
 group(:docgen) do
   gem "tomlrb"
